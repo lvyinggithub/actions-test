@@ -6,7 +6,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-16.04zz, ubuntu-18.04zz]
+        os: [ubuntu-16.04, ubuntu-18.04]
         node: [6, 8, 10]
         # eg: [ubuntu-16.04（ node: [6, 8, 10]）, ubuntu-18.04（ node: [6, 8, 10]）]
         #It has two servers running different versions of Node
