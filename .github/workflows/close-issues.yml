@@ -11,4 +11,4 @@ jobs:
         with:
           stale-issue-message: 'This issue is stale because it has been open 1 days with no activity. Remove stale label or comment or this will be closed in 1 days.'
           days-before-stale: 1
-          days-before-close: 1
+          #days-before-close: 1
