@@ -11,7 +11,7 @@ jobs:
       - uses: actions/stale@v3
         with:
           stale-issue-message: 'This issue is stale because it has been open 1 days with no activity. Remove stale label or comment or this will be closed in 2 days.'
-          days-before-stale: 1
-          days-before-close: 2
+          days-before-stale: 0
+          days-before-close: 0
           close-pr-message: "closed pr"
           close-issue-message: "closed issue"
